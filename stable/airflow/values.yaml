@@ -446,7 +446,7 @@ ingress:
 persistence:
   ##
   ## enable persistance storage
-  enabled: false
+  enabled: true
   ##
   ## Existing claim to use
   existingClaim: nil
@@ -470,7 +470,7 @@ persistence:
 logsPersistence:
   ##
   ## enable persistance storage
-  enabled: false
+  enabled: true
   ##
   ## Existing claim to use
   # existingClaim: nil
